@@ -16,7 +16,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
         contentView.clipsToBounds = true
     }
 
-    func configure(with model: VideoModel) {
+    func configure(with model: FeedVideo) {
 
     }
 

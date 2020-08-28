@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct VideoModel {
+struct FeedVideo {
     let caption: String
     let username: String
     let videoFilename: String

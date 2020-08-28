@@ -8,16 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class VideoFeedViewController: UIViewController {
 
     private var collectionView: UICollectionView?
-    private var data = [VideoModel]()
+    private var viewModel = VideoFeedViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        for _ in 0..<10 {
-            data.append(VideoModel(caption: "hola", username: "hola", videoFilename: "hola", videoExtension: "hola"))
-        }
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.itemSize = CGSize(width: view.frame.size.width, height: view.frame.size.height)
@@ -35,15 +32,14 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UICollectionViewDataSource {
+extension VideoFeedViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return data.count
+        return viewModel.getNumberOfVideos()
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let model = data[indexPath.row]
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: VideoCollectionViewCell.identifier, for: indexPath) as! VideoCollectionViewCell
-        cell.configure(with: model)
+        cell.configure(with: viewModel.getVideoAt(row: indexPath.row))
         return cell
     }
 
