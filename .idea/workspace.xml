@@ -11,13 +11,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faf9afef-2f1d-409e-8646-059dbf71cc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VideoFeed/Feed/Infrastructure/VideosRepository.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoFeed/Utilities/ActivityIndicatorExtension.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/AFError.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Alamofire.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/AlamofireExtended.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/AuthenticationInterceptor.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/CachedResponseHandler.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Combine.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/EventMonitor.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/HTTPHeaders.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/HTTPMethod.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/MultipartFormData.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/MultipartUpload.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/NetworkReachabilityManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Notifications.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/OperationQueue+Alamofire.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ParameterEncoder.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ParameterEncoding.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Protected.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/RedirectHandler.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Request.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/RequestInterceptor.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/RequestTaskMap.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Response.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ResponseSerialization.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Result+Alamofire.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/RetryPolicy.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ServerTrustEvaluation.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Session.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/SessionDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/StringEncoding+Alamofire.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/URLEncodedFormEncoder.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/URLRequest+Alamofire.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Validation.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/francisco.prieto.xcuserdatad/xcschemes/Alamofire.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/francisco.prieto.xcuserdatad/xcschemes/Pods-VideoFeed-VideoFeedUITests.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/francisco.prieto.xcuserdatad/xcschemes/Pods-VideoFeed.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/francisco.prieto.xcuserdatad/xcschemes/Pods-VideoFeedTests.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/francisco.prieto.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.modulemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-acknowledgements.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-acknowledgements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-frameworks-Debug-input-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-frameworks-Debug-output-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-frameworks-Release-input-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-frameworks-Release-output-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-frameworks.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests-umbrella.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests.debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests.modulemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed-VideoFeedUITests/Pods-VideoFeed-VideoFeedUITests.release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-acknowledgements.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-acknowledgements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-frameworks-Debug-input-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-frameworks-Debug-output-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-frameworks-Release-input-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-frameworks-Release-output-files.xcfilelist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-frameworks.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed-umbrella.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed.debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed.modulemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeed/Pods-VideoFeed.release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests-acknowledgements.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests-acknowledgements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests-umbrella.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests.debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests.modulemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-VideoFeedTests/Pods-VideoFeedTests.release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoFeed.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoFeed.xcworkspace/xcuserdata/francisco.prieto.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoFeed/Feed/Infrastructure/InMemoryVideos.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoFeed/Feed/Infrastructure/VideosAPI.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xcode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoFeed.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoCollectionViewCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoCollectionViewCell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Infrastructure/VideosRepository.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Infrastructure/VideosRepository.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/FeedVideo.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Entities/FeedVideo.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +118,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fv9L7cHAC7i2aAxvVFHiGbsmrI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="VideoFeed" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,7 +154,8 @@
       <updated>1597087642630</updated>
       <workItem from="1597087644594" duration="1863000" />
       <workItem from="1597094116838" duration="47000" />
-      <workItem from="1598623372573" duration="5377000" />
+      <workItem from="1598623372573" duration="9770000" />
+      <workItem from="1598647067538" duration="326000" />
     </task>
     <servers />
   </component>
@@ -80,43 +174,46 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="23" width="1460" height="1057" key="#com.intellij.ide.util.MemberChooser" timestamp="1598628305865">
+    <state x="0" y="23" width="1460" height="1057" key="#com.intellij.ide.util.MemberChooser" timestamp="1598641699979">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="0" y="23" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598628305865" />
+    <state x="0" y="23" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598641699979" />
     <state x="0" y="23" width="1460" height="1057" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089087824" />
     <state x="1151" y="455" key="Github.ShareDialog" timestamp="1598626877131">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1151" y="455" key="Github.ShareDialog/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598626877131" />
-    <state width="2518" height="290" key="GridCell.Tab.0.bottom" timestamp="1598639446428">
+    <state width="2518" height="290" key="GridCell.Tab.0.bottom" timestamp="1598647036928">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.bottom/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446428" />
+    <state width="2518" height="290" key="GridCell.Tab.0.bottom/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598647036928" />
     <state width="1418" height="290" key="GridCell.Tab.0.bottom/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785652" />
-    <state width="2518" height="290" key="GridCell.Tab.0.center" timestamp="1598639446427">
+    <state width="2518" height="290" key="GridCell.Tab.0.center" timestamp="1598647036927">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.center/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446427" />
+    <state width="2518" height="290" key="GridCell.Tab.0.center/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598647036927" />
     <state width="1418" height="290" key="GridCell.Tab.0.center/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785651" />
-    <state width="2518" height="290" key="GridCell.Tab.0.left" timestamp="1598639446426">
+    <state width="2518" height="290" key="GridCell.Tab.0.left" timestamp="1598647036927">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.left/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446426" />
+    <state width="2518" height="290" key="GridCell.Tab.0.left/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598647036927" />
     <state width="1418" height="290" key="GridCell.Tab.0.left/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785651" />
-    <state width="2518" height="290" key="GridCell.Tab.0.right" timestamp="1598639446427">
+    <state width="2518" height="290" key="GridCell.Tab.0.right" timestamp="1598647036928">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.right/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446427" />
+    <state width="2518" height="290" key="GridCell.Tab.0.right/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598647036928" />
     <state width="1418" height="290" key="GridCell.Tab.0.right/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785652" />
     <state x="980" y="306" width="600" height="490" key="find.popup" timestamp="1598626701617">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="980" y="306" width="600" height="490" key="find.popup/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598626701617" />
-    <state x="943" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1598628290703">
+    <state x="943" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1598640631104">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="943" y="256" width="672" height="678" key="search.everywhere.popup/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598628290703" />
+    <state x="943" y="256" width="672" height="678" key="search.everywhere.popup/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598640631104" />
   </component>
 </project>

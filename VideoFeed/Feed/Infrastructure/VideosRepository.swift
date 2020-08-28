@@ -11,11 +11,32 @@ protocol VideosRepositoryProtocol {
 }
 
 class VideosRepository: VideosRepositoryProtocol {
+    var localVideos: LocalVideosProtocol
+    var videosAPI: VideosAPIProtocol
+
+    let PAGE_SIZE = 10
+    let OFFSET = 3
+
+    init(videosLocalStorage: LocalVideosProtocol, videosAPI: VideosAPIProtocol) {
+        self.localVideos = videosLocalStorage
+        self.videosAPI = videosAPI
+    }
+
     func getCount() -> Int {
-        return 10
+        return localVideos.getCount()
     }
 
     func getVideoAt(index: Int) -> FeedVideo {
+        let video = localVideos.getVideoAt(index: index)
+
+        if video != nil {
+            return video!
+        }
+
+        videosAPI.fetchVideos
+
+
+
         return FeedVideo(caption: "hola", username: "hola", videoFilename: "hola", videoExtension: "hola")
     }
 
