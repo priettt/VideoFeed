@@ -15,6 +15,8 @@
 		6050E9FC24E1D5F00088A1C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9FA24E1D5F00088A1C9 /* LaunchScreen.storyboard */; };
 		6050EA0724E1D5F00088A1C9 /* VideoFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EA0624E1D5F00088A1C9 /* VideoFeedTests.swift */; };
 		6050EA1224E1D5F00088A1C9 /* VideoFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050EA1124E1D5F00088A1C9 /* VideoFeedUITests.swift */; };
+		65B68402DA54DE31C01A13EA /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B68F9E98069F34A61D622C /* VideoModel.swift */; };
+		65B687BF47221177FED2F99B /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B685B99046594201F32EFB /* VideoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6050EA0D24E1D5F00088A1C9 /* VideoFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6050EA1124E1D5F00088A1C9 /* VideoFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFeedUITests.swift; sourceTree = "<group>"; };
 		6050EA1324E1D5F00088A1C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B685B99046594201F32EFB /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		65B68F9E98069F34A61D622C /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6050E9F824E1D5F00088A1C9 /* Assets.xcassets */,
 				6050E9FA24E1D5F00088A1C9 /* LaunchScreen.storyboard */,
 				6050E9FD24E1D5F00088A1C9 /* Info.plist */,
+				65B685B99046594201F32EFB /* VideoCollectionViewCell.swift */,
+				65B68F9E98069F34A61D622C /* VideoModel.swift */,
 			);
 			path = VideoFeed;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 				6050E9F424E1D5EF0088A1C9 /* ViewController.swift in Sources */,
 				6050E9F024E1D5EF0088A1C9 /* AppDelegate.swift in Sources */,
 				6050E9F224E1D5EF0088A1C9 /* SceneDelegate.swift in Sources */,
+				65B687BF47221177FED2F99B /* VideoCollectionViewCell.swift in Sources */,
+				65B68402DA54DE31C01A13EA /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
