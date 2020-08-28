@@ -11,13 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faf9afef-2f1d-409e-8646-059dbf71cc8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoFeed/Feed/Infrastructure/VideosRepository.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoFeed/Utilities/ActivityIndicatorExtension.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoFeed.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoFeed/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoFeed/VideoCollectionViewCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoCollectionViewCell.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoFeed/VideoModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/FeedVideo.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoFeed/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoCollectionViewCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoCollectionViewCell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/VideoFeed/Feed/Presentation/VideoFeedViewModel.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <updated>1597087642630</updated>
       <workItem from="1597087644594" duration="1863000" />
       <workItem from="1597094116838" duration="47000" />
-      <workItem from="1598623372573" duration="2253000" />
+      <workItem from="1598623372573" duration="5377000" />
     </task>
     <servers />
   </component>
@@ -90,25 +90,25 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1151" y="455" key="Github.ShareDialog/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598626877131" />
-    <state width="2518" height="290" key="GridCell.Tab.0.bottom" timestamp="1598628436504">
+    <state width="2518" height="290" key="GridCell.Tab.0.bottom" timestamp="1598639446428">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.bottom/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598628436504" />
+    <state width="2518" height="290" key="GridCell.Tab.0.bottom/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446428" />
     <state width="1418" height="290" key="GridCell.Tab.0.bottom/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785652" />
-    <state width="2518" height="290" key="GridCell.Tab.0.center" timestamp="1598628436503">
+    <state width="2518" height="290" key="GridCell.Tab.0.center" timestamp="1598639446427">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.center/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598628436503" />
+    <state width="2518" height="290" key="GridCell.Tab.0.center/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446427" />
     <state width="1418" height="290" key="GridCell.Tab.0.center/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785651" />
-    <state width="2518" height="290" key="GridCell.Tab.0.left" timestamp="1598628436503">
+    <state width="2518" height="290" key="GridCell.Tab.0.left" timestamp="1598639446426">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.left/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598628436503" />
+    <state width="2518" height="290" key="GridCell.Tab.0.left/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446426" />
     <state width="1418" height="290" key="GridCell.Tab.0.left/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785651" />
-    <state width="2518" height="290" key="GridCell.Tab.0.right" timestamp="1598628436504">
+    <state width="2518" height="290" key="GridCell.Tab.0.right" timestamp="1598639446427">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="2518" height="290" key="GridCell.Tab.0.right/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598628436504" />
+    <state width="2518" height="290" key="GridCell.Tab.0.right/0.23.2560.1057/-1680.23.1680.1027@0.23.2560.1057" timestamp="1598639446427" />
     <state width="1418" height="290" key="GridCell.Tab.0.right/0.23.2560.1057/2560.23.1680.1027@0.23.2560.1057" timestamp="1597089785652" />
     <state x="980" y="306" width="600" height="490" key="find.popup" timestamp="1598626701617">
       <screen x="0" y="23" width="2560" height="1057" />

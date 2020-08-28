@@ -6,19 +6,17 @@
 import Foundation
 
 class VideoFeedViewModel {
-    private var videos = [FeedVideo]()
+    private var videosRepository: VideosRepositoryProtocol
 
-    init() {
-        for _ in 0..<10 {
-            videos.append(FeedVideo(caption: "hola", username: "hola", videoFilename: "hola", videoExtension: "hola"))
-        }
+    init(videosRepository: VideosRepositoryProtocol) {
+        self.videosRepository = videosRepository
     }
 
     func getNumberOfVideos() -> Int {
-        return videos.count
+        return videosRepository.getCount()
     }
 
     func getVideoAt(row: Int) -> FeedVideo {
-        return videos[row]
+        return videosRepository.getVideoAt(index: row)
     }
 }

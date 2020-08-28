@@ -11,10 +11,19 @@ import UIKit
 class VideoFeedViewController: UIViewController {
 
     private var collectionView: UICollectionView?
-    private var viewModel = VideoFeedViewModel()
+    private var viewModel = VideoFeedViewModel(videosRepository: VideosRepository())
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureCollectionView()
+    }
+
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        collectionView?.frame = view.bounds
+    }
+
+    func configureCollectionView() {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.itemSize = CGSize(width: view.frame.size.width, height: view.frame.size.height)
@@ -24,11 +33,6 @@ class VideoFeedViewController: UIViewController {
         collectionView?.isPagingEnabled = true
         collectionView?.dataSource = self
         view.addSubview(collectionView!)
-    }
-
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        collectionView?.frame = view.bounds
     }
 }
 

@@ -14,6 +14,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
         super.init(frame: frame)
         contentView.backgroundColor = .red
         contentView.clipsToBounds = true
+        contentView.showSpinner()
     }
 
     func configure(with model: FeedVideo) {
